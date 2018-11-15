@@ -39,5 +39,23 @@ https://vega.github.io/vega/
 
 React Renderless >| Scene Builder > Abstract Scenegraph > Virtual SVG |> React-DOM
 
+* areaTitle
+* areaDescription
 
+#### Other Charts
 
+* PopulationChart
+
+### React Native SVG Renderer
+
+```js
+import { Renderer } from '@chart-parts/react-native-svg-renderer';
+const renderer = new Renderer();
+const dataset = require('./data.json';
+
+export default () => (
+  <Chart renderer={renderer}>
+  ...
+  </Chart>
+);
+```
