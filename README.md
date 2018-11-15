@@ -51,7 +51,7 @@ React Renderless >| Scene Builder > Abstract Scenegraph > Virtual SVG |> React-D
 ```js
 import { Renderer } from '@chart-parts/react-native-svg-renderer';
 const renderer = new Renderer();
-const dataset = require('./data.json';
+const dataset = require('./data.json');
 
 export default () => (
   <Chart renderer={renderer}>
